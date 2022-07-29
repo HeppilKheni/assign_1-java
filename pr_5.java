@@ -9,6 +9,11 @@ public static void main(String[] args) {
     int a1=a.length();
     int b1=b.length();
     int count=0;
+
+
+
+
+    
     for(int i=0;i<a1-2;i++)
     {
         
