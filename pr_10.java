@@ -4,7 +4,7 @@
 import java.util.*;
 public class pr_10 {
 
-    public static final String ALPHABET = "mynameisheppilkheni";
+    public static final String ALPHABET = "abcdefghijklmnopqrstuvxyz";
 
     public static String encrypt(String plainText, int shiftKey) {
         plainText = plainText.toLowerCase();
@@ -17,9 +17,7 @@ public class pr_10 {
         }
         return cipherText;
     }
-
     public static String decrypt(String cipherText, int shiftKey)
-
     {
         cipherText = cipherText.toLowerCase();
         String plainText = "";
@@ -39,8 +37,8 @@ public class pr_10 {
         System.out.println("Enter the String for Encryption: ");
         String message = new String();
         message = sc.next();
-        System.out.println(encrypt(message, 3));
-        System.out.println(decrypt(encrypt(message, 3), 3));
+        System.out.println(encrypt(message, 2));
+        System.out.println(decrypt(encrypt(message, 2), 2));
         sc.close();
     }
 }
