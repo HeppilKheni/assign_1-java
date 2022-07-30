@@ -1,3 +1,7 @@
+//ID : 21CE056
+//Name : Heppil Kheni
+//Aim : what you element remove in string and print the remaing string.
+
 import java.util.*;
 public class pr_6 {
     public static void main(String[] args) 

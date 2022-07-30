@@ -1,8 +1,23 @@
 import java.util.*;
 
+//ID : 21CE056
+//Name : Heppil Kheni
+//Aim : using  charAt() in String for find some perticular char
+
 class pr_2{
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+       
+        System.out.print("Enter the String : ");
+        String str = sc.nextLine();
+        String ans = startOz(str);
+        System.out.println(ans);
+        sc.close();
+    }
     public static String startOz(String a)
         {   
+//when 'o' and 'z' are come in first in string then it's include in obt variable.
             String obt = "";
             if(a.charAt(0)=='o')
             obt=obt+'o';
@@ -11,15 +26,4 @@ class pr_2{
             obt=obt+'z';
         return obt;
         }
-    public static void main(String[] args) {
-        
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the String : ");
-        String str = sc.nextLine();
-
-        String ans = startOz(str);
-        System.out.println(ans);
-        sc.close();
-    }
-
 }

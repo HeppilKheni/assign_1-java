@@ -1,5 +1,8 @@
-import java.util.*;
+//ID : 21CE056
+//Name : Heppil Kheni
+//Aim : comparing any number two for String.
 
+import java.util.*;
 public class pr_3 {
     public static void main(String[] args) {
 
@@ -12,7 +15,6 @@ public class pr_3 {
         check(num1, num2);
         sc.close();
     }
-
     public static void check(int a, int b) {
         if (a % 10 == b % 10)
             System.out.println("true");
